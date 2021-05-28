@@ -20,7 +20,7 @@ ng version
 ng new my-first-app --no-strict
 ```
 
-## Input
+## Import Module
 
 app.component.html
 
@@ -48,4 +48,20 @@ import {FormsModule} from '@angular/forms';
     FormsModule
   ]
 })
+```
+
+## Add Bootstrap
+
+```
+// install bootstrap
+npm i --save bootstrap@3
+```
+
+angular.json
+
+```
+"styles": [
+  "node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "src/styles.css"
+],
 ```
